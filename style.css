@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(Rectangle\ 17.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+.header{
+    padding: 80px;
+    border: 2px solid rgb(248, 241, 241);
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    color: #ff5722;
+    margin-bottom: 1rem;
+}
+.call-btn{
+    background-color: #ff5722;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #ff5722;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.call-btn:hover{
+    background-color: #e64a19;
+    display: flex;
+}
+.contact-section{
+    padding: 80px;
+    margin: 80px;
+    border: 2px solid rgb(235, 233, 233);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form{
+    display: contents;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-form input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form textarea{
+    width: 164vh;
+    height: 90px;
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form button{
+    background-color: #ff5722;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form button:hover{
+    background-color: #e64a19;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background:none;
+    padding: 2rem;
+    text-align: center;
+}
+.stat-item h3{
+    color: #ff5722;
+    margin-bottom: 0.5rem;
+}
+.stat-item{
+    border: 2px solid rgb(244, 233, 233);
+    border-radius: 15px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.srv{
+    text-align: center;
+}
+.services{
+    padding: 2rem 1rem;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.service-category{
+    margin-bottom: 51px;
+    width:200px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(239, 234, 234);
+    border-radius: 10px;
+    height: 350px;
+    background: white;
+    padding: 15px;
+    overflow: -moz-hidden-unscrollable;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.service-category ul{
+    justify-content: center;
+    align-items: center;
+    
+}
+.service-category ul li{
+    margin: 0.2rem 0;
+}
